@@ -1,0 +1,5 @@
+module libpq {
+    header "/Library/PostgreSQL/10/include/libpq-fe.h"
+    link "pq"
+    export *
+}
