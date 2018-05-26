@@ -8,7 +8,7 @@ let package = Package(
 	name: "libpq",
 	pkgConfig: "libpq",
 	providers: [
-        .brew("postgres"),
-        .apt("libpq-dev"),
+        .brew(["postgres"]),
+        .apt(["libpq-dev"]),
 	]
 )
